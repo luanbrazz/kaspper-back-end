@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="clinica/src"/>
+	<classpathentry kind="src" path="ComportamentoMemoria/src"/>
+	<classpathentry kind="src" path="ContaCorrente/src"/>
+	<classpathentry kind="src" path="exercicios/src"/>
+	<classpathentry kind="src" path="MembrosEstaticos/src"/>
+	<classpathentry kind="src" path="OrientacaoObjetos/src"/>
+	<classpathentry kind="src" path="SistemaProduto/src"/>
+	<classpathentry kind="output" path="ComportamentoMemoria/bin"/>
+</classpath>
