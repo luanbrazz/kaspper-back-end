@@ -1,19 +1,20 @@
-package entities;
+package vetores.desafio.entidades;
 
-public class Rent {
+public class Aluguel {
+
 	private String name;
 	private String email;
 
-	public Rent(String name, String email) {
-		this.name = name;
-		this.email = email;
+	public Aluguel(String nome, String email) {
+	this.name = nome;
+	this.email = email;
 	}
 
-	public String getName() {
+	public String getNome() {
 		return name;
 	}
 
-	public void setName(String name) {
+	public void setNome(String name) {
 		this.name = name;
 	}
 
