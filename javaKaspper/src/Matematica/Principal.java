@@ -13,6 +13,10 @@ public class Principal {
 		System.out.println("Eu sou um " + t1.getNome());
 		//System.out.println("Minha área é: "  + t1.calcularArea());
 		System.out.printf("%s%.2f%n","Minha área é: ", t1.calcularArea());
+		
+		Figura c1 = new Circulo("Circúlo","vermelho", 10);
+		System.out.println("Eu sou um " + c1.getNome());
+		System.out.printf("%s%.2f%n", "Minha área é: ", c1.calcularArea());
 	}
 
 }
