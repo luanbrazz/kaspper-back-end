@@ -1,4 +1,5 @@
 package PagamentoImpostos;
+
 public class PessoaFisica extends Pessoa {
 	
 	private double gastosComSaude;
@@ -8,6 +9,7 @@ public class PessoaFisica extends Pessoa {
 		this.gastosComSaude = gastosComSaude;
 	}
 
+	@Override
 	public double calcularImposto() {
 		double imposto = 0;
 		 if(this.getRendaAnual() < 20000) {
@@ -30,7 +32,5 @@ public class PessoaFisica extends Pessoa {
 	public void setGastosComSaude(double gastosComSaude) {
 		this.gastosComSaude = gastosComSaude;
 	}
-	
-	
 
 }

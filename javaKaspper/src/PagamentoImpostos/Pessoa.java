@@ -25,7 +25,7 @@ public abstract class Pessoa implements PessoaInterface {
 	public void setRendaAnual(double rendaAnual) {
 		this.rendaAnual = rendaAnual;
 	}
-
-	protected abstract double calcularImposto();
+	
+	
 
 }

@@ -9,6 +9,7 @@ public class PessoaJuridica extends Pessoa{
 		this.numeroFuncionarios = numeroFuncionarios;
 	}
 
+	@Override
 	public double calcularImposto() {
 		double imposto = 0;
 		if(this.numeroFuncionarios > 10) {
