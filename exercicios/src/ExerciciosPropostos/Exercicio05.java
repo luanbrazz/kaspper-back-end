@@ -3,6 +3,7 @@ package ExerciciosPropostos;
 import java.util.Scanner;
 
 public class Exercicio05 {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		Scanner entrada = new Scanner(System.in);
@@ -11,27 +12,27 @@ public class Exercicio05 {
 		
 		double valorUnitUm, valorUnitDois, precoTotal;
 		
-		System.out.println("Digite o código da peça 1: ");
+		System.out.println("Digite o cï¿½digo da peï¿½a 1: ");
 		codUm = entrada.nextInt();
 		
-		System.out.println("Digite a quantidade de peças a ser comprada da peça 1: ");
+		System.out.println("Digite a quantidade de peï¿½as a ser comprada da peï¿½a 1: ");
 		numUm = entrada.nextInt();
 		
-		System.out.println("Digite o valor unitário da peça 1: ");
+		System.out.println("Digite o valor unitï¿½rio da peï¿½a 1: ");
 		valorUnitUm = entrada.nextDouble();
 		
-		System.out.println("Digite o código da peça 2: ");
+		System.out.println("Digite o cï¿½digo da peï¿½a 2: ");
 		codDois = entrada.nextInt();
 		
-		System.out.println("Digite a quantidade de peças a ser comprada da peça 2: ");
+		System.out.println("Digite a quantidade de peï¿½as a ser comprada da peï¿½a 2: ");
 		numDois = entrada.nextInt();
 		
-		System.out.println("Digite o valor unitário da peça 2: ");
+		System.out.println("Digite o valor unitï¿½rio da peï¿½a 2: ");
 		valorUnitDois = entrada.nextDouble();
 		
 		precoTotal = ((numUm * valorUnitUm) + (numDois * valorUnitDois));
 				
-		System.out.printf("O valor total a ser pago é: R$%.2f", precoTotal);
+		System.out.printf("O valor total a ser pago ï¿½: R$%.2f", precoTotal);
 		
 		entrada.close();
 	}
